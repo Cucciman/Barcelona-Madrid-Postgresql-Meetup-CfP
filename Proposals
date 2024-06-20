@@ -1,1 +1,41 @@
+---
+name: "Talk Proposal"
+about: "Submit a proposal for a talk at our PostgreSQL meetup"
+title: "[Talk Title] - [Author Name]"
+labels: proposal
+assignees: ''
+
+---
+
+## Talk Title
+<!-- Provide the title of your talk -->
+
+## Author Name
+<!-- Provide your full name -->
+
+## Contact Information
+- **Email:** [Your Email]
+- **GitHub/Twitter/LinkedIn:** [Your Handle]
+
+## Abstract
+<!-- Provide a brief summary of your talk (150-300 words) -->
+
+## Detailed Description
+<!-- Provide a more detailed description of your talk. What will attendees learn? Why is this topic important? -->
+
+## Target Audience
+<!-- Who is the intended audience for your talk? (e.g., beginners, intermediate users, advanced users) -->
+
+## Duration
+<!-- How long will your talk be? (e.g., 30 minutes, 45 minutes) -->
+
+## Bio
+<!-- Provide a brief biography of yourself, including your experience with PostgreSQL and relevant credentials -->
+
+## Additional Information
+<!-- Any additional information you want to include (e.g., prior speaking experience, links to slides or videos of previous talks, etc.) -->
+
+## Availability
+<!-- Specify your availability or preferred dates for giving this talk -->
+
 
