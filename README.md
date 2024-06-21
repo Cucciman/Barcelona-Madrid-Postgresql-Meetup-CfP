@@ -62,8 +62,4 @@ Best regards,
 The PostgreSQL Meetup Organizers
 
 
-Thank you for your interest in the Madrid & Barcelona PostgreSQL User Group meetups. We look forward to your proposals!
-
-Best regards,
-The PostgreSQL Meetup Organizers
 
