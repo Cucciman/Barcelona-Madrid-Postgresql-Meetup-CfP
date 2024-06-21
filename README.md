@@ -7,7 +7,9 @@ Welcome to the Madrid & Barcelona PostgreSQL User Group CFP (Call for Proposals)
 The repository is organized into the following directories:
 
 ### 1. proposals
-This directory is where contributors can submit their talk proposals. Each proposal should follow the provided template to ensure all necessary information is included.
+This directory is where contributors can submit their talk proposals. Each proposal should follow the provided template to ensure all necessary information is included. 
+
+[Talk Proposal Template](https://github.com/Cucciman/postgresql-meetup-cfp/blob/main/proposals/PROPOSAL_TEMPLATE.md)
 
 ### 2. review
 This directory is for organizers to review and discuss the submitted proposals. Proposals in this directory are currently under consideration and discussion.
@@ -22,7 +24,7 @@ This directory includes guidelines, templates, and other documentation for contr
 
 ### Submitting a Proposal
 1. Navigate to the `proposals` directory.
-2. Follow the [Talk Proposal Template](proposals/README.md) to create a new proposal.
+2. Follow the [Talk Proposal Template](https://github.com/Cucciman/postgresql-meetup-cfp/blob/main/proposals/PROPOSAL_TEMPLATE.md) to create a new proposal.
 3. Submit your proposal as a new issue using the provided template.
 
 ### Reviewing Proposals
@@ -53,6 +55,12 @@ For any questions or further assistance, please reach out to the organizers via 
 ## Contributing
 
 We welcome contributions to improve this process. Please refer to the `resources` directory for guidelines on how to contribute.
+
+Thank you for your interest in the Madrid & Barcelona PostgreSQL User Group meetups. We look forward to your proposals!
+
+Best regards,
+The PostgreSQL Meetup Organizers
+
 
 Thank you for your interest in the Madrid & Barcelona PostgreSQL User Group meetups. We look forward to your proposals!
 
