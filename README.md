@@ -25,7 +25,8 @@ This directory includes guidelines, templates, and other documentation for contr
 ### Submitting a Proposal
 1. Navigate to the `proposals` directory.
 2. Follow the [Talk Proposal Template](https://github.com/Cucciman/postgresql-meetup-cfp/blob/main/proposals/PROPOSAL_TEMPLATE.md) to create a new proposal.
-3. Submit your proposal as a new issue using the provided template.
+3. Create a new issue using the following title format: `[Talk Proposal] Your Talk Title`.
+4. Submit your proposal as a new issue using the provided template.
 
 ### Reviewing Proposals
 1. Organizers will move proposals from the `proposals` directory to the `review` directory for discussion.
