@@ -9,9 +9,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Add label to new CFP issues
-        if: github.event.issue.title contains '[Talk Title]'
-        uses: actions-ecosystem/action-add-labels@v1
+      - name: Check issue title and add label
+        uses: actions/github-script@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: 'proposal-submitted'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueTitle = context.payload.issue.title;
+            if (issueTitle.includes('[Talk Title]')) {
+              github.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.issue.number,
+                labels: ['proposal-submitted']
+              });
+            }
+
