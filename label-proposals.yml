@@ -9,18 +9,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check issue title and add label
+      - name: Add label to new CFP issues
         uses: actions/github-script@v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const issueTitle = context.payload.issue.title;
-            if (issueTitle.includes('[Talk Title]')) {
-              github.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.payload.issue.number,
+            const issueNumber = context.payload.issue.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            console.log(`Issue title: ${issueTitle}`);
+
+            // Add the label if the issue title contains 'Talk Title'
+            if (issueTitle.includes('Talk Title')) {
+              console.log('Adding label...');
+              await github.issues.addLabels({
+                owner: owner,
+                repo: repo,
+                issue_number: issueNumber,
                 labels: ['proposal-submitted']
               });
+            } else {
+              console.log('No label added.');
             }
-
