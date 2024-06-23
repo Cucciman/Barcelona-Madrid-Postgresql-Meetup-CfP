@@ -17,9 +17,6 @@ This directory is for organizers to review and discuss the submitted proposals. 
 ### 3. selected
 This directory contains the proposals that have been selected for upcoming meetups. Once a proposal is approved, it is moved here.
 
-### 4. resources
-This directory includes guidelines, templates, and other documentation for contributors. Refer to these resources to ensure your proposal meets our standards and requirements.
-
 ## How It Works
 
 ### Submitting a Proposal
@@ -36,10 +33,6 @@ This directory includes guidelines, templates, and other documentation for contr
 ### Selecting Proposals
 1. After review, proposals that are approved will be moved to the `selected` directory.
 2. Selected proposals will be scheduled for upcoming meetups and communicated to the speakers.
-
-### Resources
-1. Check the `resources` directory for guidelines and templates.
-2. Follow the provided instructions to ensure your proposal is complete and meets our requirements.
 
 ## Labels
 
